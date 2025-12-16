@@ -10,15 +10,16 @@ const createMockClipboard = () => ({
 });
 
 // Mock ClipboardItem
-global.ClipboardItem = class MockClipboardItem {
-  types: string[];
-  constructor(items: Record<string, Blob>) {
-    this.types = Object.keys(items);
-  }
-  getType() {
-    return Promise.resolve(new Blob());
-  }
-} as unknown as typeof ClipboardItem;
+(globalThis as typeof globalThis & { ClipboardItem: unknown }).ClipboardItem =
+  class MockClipboardItem {
+    types: string[];
+    constructor(items: Record<string, Blob>) {
+      this.types = Object.keys(items);
+    }
+    getType() {
+      return Promise.resolve(new Blob());
+    }
+  } as unknown as typeof ClipboardItem;
 
 // Reset clipboard mock before each test
 beforeEach(() => {
