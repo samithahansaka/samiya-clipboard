@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://github.com/samithahansaka/samiya-clipboard#readme
+    about: Check the README for usage examples and API reference
+  - name: Discussions
+    url: https://github.com/samithahansaka/samiya-clipboard/discussions
+    about: Ask questions and discuss ideas
