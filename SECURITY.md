@@ -40,4 +40,4 @@ This library is a client-side React hook with zero dependencies. The attack surf
 
 ---
 
-Thank you for helping keep @samiya/clipboard safe!
+Thank you for helping keep @samithahansaka/clipboard safe!

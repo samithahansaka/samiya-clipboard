@@ -2,7 +2,7 @@
 
 ## Our Commitment
 
-We're building @samiya/clipboard in the open, and we want everyone to feel welcome here.
+We're building @samithahansaka/clipboard in the open, and we want everyone to feel welcome here.
 
 Whether you're opening your first issue, submitting a PR, or just asking a question — you belong here. We're committed to providing a friendly, safe, and harassment-free experience for everyone, regardless of:
 

@@ -1,13 +1,13 @@
-# @samiya/clipboard
+# @samithahansaka/clipboard
 
 A modern, lightweight React hook and component for copying to clipboard with feedback.
 
 [![CI](https://github.com/samithahansaka/samiya-clipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/samithahansaka/samiya-clipboard/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@samiya/clipboard.svg)](https://www.npmjs.com/package/@samiya/clipboard)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/@samiya/clipboard)](https://bundlephobia.com/package/@samiya/clipboard)
+[![npm version](https://img.shields.io/npm/v/@samithahansaka/clipboard.svg)](https://www.npmjs.com/package/@samithahansaka/clipboard)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@samithahansaka/clipboard)](https://bundlephobia.com/package/@samithahansaka/clipboard)
 [![codecov](https://codecov.io/gh/samithahansaka/samiya-clipboard/branch/master/graph/badge.svg)](https://codecov.io/gh/samithahansaka/samiya-clipboard)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
-[![license](https://img.shields.io/npm/l/@samiya/clipboard.svg)](https://github.com/samithahansaka/samiya-clipboard/blob/main/LICENSE)
+[![license](https://img.shields.io/npm/l/@samithahansaka/clipboard.svg)](https://github.com/samithahansaka/samiya-clipboard/blob/main/LICENSE)
 
 ## Features
 
@@ -22,15 +22,15 @@ A modern, lightweight React hook and component for copying to clipboard with fee
 ## Installation
 
 ```bash
-npm install @samiya/clipboard
+npm install @samithahansaka/clipboard
 ```
 
 ```bash
-yarn add @samiya/clipboard
+yarn add @samithahansaka/clipboard
 ```
 
 ```bash
-pnpm add @samiya/clipboard
+pnpm add @samithahansaka/clipboard
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ pnpm add @samiya/clipboard
 ### Hook API
 
 ```tsx
-import { useCopyToClipboard } from '@samiya/clipboard';
+import { useCopyToClipboard } from '@samithahansaka/clipboard';
 
 function MyComponent() {
   const { copy, copied, error, reset } = useCopyToClipboard();
@@ -54,7 +54,7 @@ function MyComponent() {
 ### With Options
 
 ```tsx
-import { useCopyToClipboard } from '@samiya/clipboard';
+import { useCopyToClipboard } from '@samithahansaka/clipboard';
 
 function MyComponent() {
   const { copy, copied } = useCopyToClipboard({
@@ -74,7 +74,7 @@ function MyComponent() {
 ### Component API
 
 ```tsx
-import { CopyButton } from '@samiya/clipboard';
+import { CopyButton } from '@samithahansaka/clipboard';
 
 function MyComponent() {
   return (
@@ -92,7 +92,7 @@ function MyComponent() {
 ### Copy Rich Content (HTML + Text)
 
 ```tsx
-import { useCopyToClipboard } from '@samiya/clipboard';
+import { useCopyToClipboard } from '@samithahansaka/clipboard';
 
 function MyComponent() {
   const { copy, copied } = useCopyToClipboard();
@@ -115,7 +115,7 @@ function MyComponent() {
 ### With Toast Notifications
 
 ```tsx
-import { useCopyToClipboard } from '@samiya/clipboard';
+import { useCopyToClipboard } from '@samithahansaka/clipboard';
 import { toast } from 'your-toast-library';
 
 function CopyableCode({ code }: { code: string }) {

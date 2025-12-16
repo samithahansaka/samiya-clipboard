@@ -1,4 +1,4 @@
-# Contributing to @samiya/clipboard
+# Contributing to @samithahansaka/clipboard
 
 First off, thanks for taking the time to contribute! This project is made better by people like you.
 
