@@ -4,6 +4,9 @@ export default defineConfig({
   title: '@samithahansaka/clipboard',
   description: 'Modern clipboard hook and component for React',
   base: '/samiya-clipboard/',
+  sitemap: {
+    hostname: 'https://samithahansaka.github.io/samiya-clipboard/',
+  },
 
   head: [
     ['meta', { name: 'google-site-verification', content: 'BV-rjxx2mC60HTYHKI8BBA_IG-3PSL6qtHfKrWkXWLU' }],
