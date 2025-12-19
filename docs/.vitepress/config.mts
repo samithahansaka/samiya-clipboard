@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/samiya-clipboard/',
 
   head: [
+    ['meta', { name: 'google-site-verification', content: 'BV-rjxx2mC60HTYHKI8BBA_IG-3PSL6qtHfKrWkXWLU' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:title', content: '@samithahansaka/clipboard' }],
