@@ -24,7 +24,7 @@ export default defineConfig({
       { text: 'API', link: '/api/' },
       {
         text: 'Demo',
-        link: 'https://codesandbox.io/p/sandbox/samithahansaka-clipboard-demo',
+        link: 'https://codesandbox.io/p/sandbox/samithahansaka-clipboard-demo-s34ypx',
       },
     ],
 

@@ -8,6 +8,8 @@ A modern, lightweight React hook and component for copying to clipboard with fee
 [![codecov](https://codecov.io/gh/samithahansaka/samiya-clipboard/branch/master/graph/badge.svg)](https://codecov.io/gh/samithahansaka/samiya-clipboard)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
 [![license](https://img.shields.io/npm/l/@samithahansaka/clipboard.svg)](https://github.com/samithahansaka/samiya-clipboard/blob/main/LICENSE)
+[![docs](https://img.shields.io/badge/docs-VitePress-green.svg)](https://samithahansaka.github.io/samiya-clipboard/)
+[![demo](https://img.shields.io/badge/demo-CodeSandbox-blue.svg)](https://codesandbox.io/p/sandbox/samithahansaka-clipboard-demo-s34ypx)
 
 ## Features
 
