@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import React, { useCallback } from 'react';
 import { useCopyToClipboard } from './useCopyToClipboard';
 import type { CopyButtonProps } from './types';
 
@@ -33,7 +33,7 @@ export function CopyButton({
   onSuccess,
   onError,
   children,
-}: CopyButtonProps) {
+}: CopyButtonProps): React.ReactElement {
   const { copy, copied, error, reset } = useCopyToClipboard({
     successDuration,
     onSuccess,

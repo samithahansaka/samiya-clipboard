@@ -37,7 +37,7 @@ export interface CopyButtonProps {
   /** Callback when copy fails */
   onError?: (error: Error) => void;
   /** Render prop for custom button UI */
-  children: (state: CopyButtonRenderProps) => React.ReactNode;
+  children: (state: CopyButtonRenderProps) => React.ReactElement;
 }
 
 export interface CopyButtonRenderProps {
