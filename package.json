@@ -1,6 +1,6 @@
 {
   "name": "@samithahansaka/clipboard",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A modern, lightweight React hook and component for copying to clipboard with feedback",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
