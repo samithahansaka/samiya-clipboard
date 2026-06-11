@@ -12,6 +12,7 @@ jobs:
 
     strategy:
       matrix:
+        # jsdom@29 floor: Node ^20.19 || ^22.13 || >=24 — don't pin below
         node-version: [20.x, 22.x]
 
     steps:
